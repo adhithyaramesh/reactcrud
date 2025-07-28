@@ -9,7 +9,7 @@ import {
   TextField,
   Typography
 } from "@mui/material";
-import { addUser, fetchUsers, updateUser, deleteUser } from "../Axios/axiosClient";
+import { addUser, fetchUsers, updateUser, deleteUser } from "../axios/axiosClient";
 
 export const AxiosDemoComponent = () => {
   const [users, setUsers] = useState([]);
